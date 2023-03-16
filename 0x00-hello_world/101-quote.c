@@ -3,10 +3,11 @@
 /**
  * main - Entry point
  *
- * Description: using sizeof to print the size of various types.
+ * Description: print a qoute using write function
+ * 	ssize_t write(int fd, const void *buf, size_t count);
  *
- * Return: Alawys 0 (Success)
- */
+ * Return: Alawys 1 (error).
+*/
 
 int main(void)
 {
