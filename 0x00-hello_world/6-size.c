@@ -6,7 +6,7 @@
  * Description: using sizeof to print the size of various types.
  *
  * Return: Alawys 0 (Success)
- */
+*/
 
 int main(void)
 {
