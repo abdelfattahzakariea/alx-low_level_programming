@@ -5,11 +5,14 @@
 /**
  * print_all - prints anything
  * @format: list of types of arguments passed to the function
+ *
  */
+
 void print_all(const char * const format, ...)
 {
-	nt i = 0;
-	har *str, *sep = "";
+
+	int i = 0;
+	char *str, *sep = "";
 
 	va_list list;
 
@@ -44,6 +47,8 @@ void print_all(const char * const format, ...)
 			i++;
 		}
 	}
+
+
 	printf("\n");
 	va_end(list);
 }
