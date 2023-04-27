@@ -1,4 +1,4 @@
-	global   main
+	global   mai
 	extern    printf
 main:
 	mov   edi, format
